@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodu Ranna Ghor</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+        .submit{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>By Filling the form place your order.</h1>
+
+        <form>
+            <label for="name">Your Name: <input type="text" id="name" placeholder="Your name"></label>
+            <label for="email">Your E-mail: <input type="email" id="email" placeholder="E-mail Address"></label>
+            <label for="phone">Your Phone: <input type="text" id="phone" placeholder="Phone Number"></label>
+
+            <fieldset><legend>Pick One Pitha</legend>
+                <label for="chitoy"><input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for="vapa"><input type="radio" name="pitha" id="vapa">Vapa</label>
+                <label for="puri"><input type="radio" name="pitha" id="puri">Puri</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pick One or More Vorta</legend>
+                <label for="sorisha"><input type="checkbox" name="vorta" id="sorisha">Sorisha</label>
+                <label for="sutki"><input type="checkbox" name="vorta" id="sutki">Sutki</label>
+                <label for="chili"><input type="checkbox" name="vorta" id="chili">Chili</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="65" rows="5"></textarea>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p><small>&copy 2024 all right reserved</small></p>
+    </footer>
+</body>
+</html>
